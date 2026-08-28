@@ -1,0 +1,4 @@
+symbol,asset_class,tick_size,tick_value,contract_multiplier,currency
+EURUSD,FOREX,0.00001,0.00001,1.0,USD
+GBPUSD,FOREX,0.00001,0.00001,1.0,USD
+PETR4,EQUITY,0.01,0.01,1.0,BRL

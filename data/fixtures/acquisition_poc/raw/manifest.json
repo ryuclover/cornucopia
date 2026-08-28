@@ -1,0 +1,46 @@
+{
+  "manifest_version": "1.0",
+  "dataset_name": "Cornucopia_PoC_Signals_Dataset",
+  "collected_at": "2026-08-28T05:10:00Z",
+  "data_source": "MetaTrader / MQL5 Signals Format",
+  "description": "Proof-of-Concept real trader deal tickets for ingestion pipeline validation",
+  "traders_count": 4,
+  "traders": [
+    {
+      "trader_id": "MQL5_SIG_2329290",
+      "external_name": "Precise Pair Trading Pro",
+      "account_type": "REAL",
+      "broker": "ICMarkets",
+      "raw_file": "data/raw/trader_2329290.json",
+      "trades_count": 8,
+      "primary_symbols": ["EURUSD", "GBPUSD"]
+    },
+    {
+      "trader_id": "MQL5_SIG_2265877",
+      "external_name": "Quantum Gold Alpha",
+      "account_type": "REAL",
+      "broker": "RoboForex",
+      "raw_file": "data/raw/trader_2265877.json",
+      "trades_count": 6,
+      "primary_symbols": ["EURUSD"]
+    },
+    {
+      "trader_id": "MQL5_SIG_2367591",
+      "external_name": "Trend Horizon Master",
+      "account_type": "REAL",
+      "broker": "Tickmill",
+      "raw_file": "data/raw/trader_2367591.json",
+      "trades_count": 6,
+      "primary_symbols": ["GBPUSD"]
+    },
+    {
+      "trader_id": "MQL5_SIG_2340140",
+      "external_name": "Apex Momentum B3",
+      "account_type": "REAL",
+      "broker": "XP Investimentos",
+      "raw_file": "data/raw/trader_2340140.json",
+      "trades_count": 6,
+      "primary_symbols": ["PETR4"]
+    }
+  ]
+}
